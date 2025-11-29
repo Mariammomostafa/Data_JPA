@@ -3,7 +3,7 @@
 - add data base properties/connection info inside .properties file
 - create Student Enitity & Repository interface which extends JpaRepository & all mwthods impl will be done behind the scene
 - all needed beans  will be automatically created by Spring Boot when application statrt up through @EnableAutoConfiguration
-- Spring Boot automatically configures and registers the DispatcherServlet as there is spring-boot-starter-web dependency on the classpath
+- Spring Boot automatically configures and registers the DispatcherServlet as there is spring-boot-starter-web dependency on the classpath and maps it to the default URL pattern of / or /** for all requests
 - add the path of pages inside .properties file
 - using tomcat-jasper to convert jsp pages into servlet to enable run on tomcat embeded server
 
