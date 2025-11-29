@@ -1,14 +1,12 @@
 # Spring Boot maven project
-- uses spring-jdbc to connect to data base
-- Exclude JdbcTemplateAutoConfiguration.class , DataSourceAutoConfiguration.class
-- create beans of JDBCTemplate & DataSource in config class
-- set up mysql RDBMS (server) & MySql workbench 8.0 as GUI
-- add connection info in .properties file
+- it's spring boot app that uses spring-boot-starter-data-jpa to connect to data base
+- add data base properties/connection info inside .properties file
+- create Employee Enitity & Repository interface which extends JpaRepository & all mwthods impl will be done behind the scene
+- all needed beans will be automatically created by Spring Boot when application statrt up through @EnableAutoConfiguration
+- 
 
 ### Prerequisites
 - Java 17
-- spring boot 3.5.4
-- spring-boot-starter-data-jpa
--spring-boot-starter-jdbc
-- mysql-connector-j 9.1.0
+- spring-boot-starter-data-jpa 3.5.4
+- mysql-connector-j
 - IDE (Eclips)
